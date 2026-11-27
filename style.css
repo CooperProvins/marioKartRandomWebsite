@@ -21,6 +21,9 @@ body {
 main {
     flex: 1;
     background-color: var(--color-bg-base);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .mainBody {
     display: flex;
