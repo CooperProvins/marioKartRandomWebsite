@@ -29,12 +29,16 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    background-color: grey;
 }
-#mainContent div button{
+#buttonGroup button{
     width: 6rem;
     height: 6rem;
-    outline: 0.25rem solid black;
+    outline: 0.125rem solid black;
     font-size: 2rem;
+}
+#buttonGroup {
+    outline: 0.125rem solid black;
 }
 #mainContent p {
     white-space: pre-line;
