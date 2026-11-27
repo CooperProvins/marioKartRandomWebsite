@@ -20,7 +20,7 @@ function showGrid(whichButton) {
     var textGrid = document.createElement("p");
     textGrid.id = "textGrid";
     textGrid.innerHTML = text;
-    document.getElementById("mainBody").appendChild(textGrid);
+    document.getElementById("mainContent").appendChild(textGrid);
   }
   else {
     document.getElementById("textGrid").innerHTML = text;
