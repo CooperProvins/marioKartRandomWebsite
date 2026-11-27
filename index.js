@@ -4,6 +4,9 @@ function showGrid(whichButton) {
   if (whichButton === 'team'){
     maxRandom = 4;
   }
+  else if (whichButton === 'solo'){
+    maxRandom = 2;
+  }
 
   for (let i = 0; i < 3; i++){
     for (let j = 0; j < 8; j++){
@@ -11,6 +14,7 @@ function showGrid(whichButton) {
     }
     text += "\n";
   }
+  text = text.slice(0, -2);
 
   if (document.getElementById("textGrid") === null){
     var textGrid = document.createElement("p");
