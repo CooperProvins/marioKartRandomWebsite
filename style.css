@@ -25,19 +25,16 @@ main {
     justify-content: center;
     align-items: center;
 }
-.mainBody {
+#mainBody {
     display: flex;
     flex-direction: column;
 }
-.mainBody * {
-    
-}
-.mainBody button {
+#mainBody button {
     width: 3rem;
     height: 3rem;
     outline: 5px black;
 }
-.mainBody p {
+#mainBody p {
     white-space: pre-line;
 }
 footer {
