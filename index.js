@@ -7,7 +7,7 @@ function showGrid(whichButton) {
 
   for (let i = 0; i < 3; i++){
     for (let j = 0; j < 8; j++){
-      text += Math.random()*maxRandom + ", ";
+      text += Math.floor(Math.random()*maxRandom) + ", ";
     }
     text += "\n";
   }
