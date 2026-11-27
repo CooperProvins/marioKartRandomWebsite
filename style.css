@@ -13,6 +13,8 @@ html, body{
     padding: 0;
 }
 body {
+    min-height: 100vh;
+    min-height: 100dvh; /* tracks the visible mobile viewport */
     display: flex;
     flex-direction: column;
     font-family: Helvetica, sans-serif;
