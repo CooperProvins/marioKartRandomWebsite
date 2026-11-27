@@ -19,10 +19,10 @@ function showGrid(whichButton) {
   if (document.getElementById("textGrid") === null){
     var textGrid = document.createElement("p");
     textGrid.id = "textGrid";
-    textGrid.innerHTML = text;
+    textGrid.textContent = text;
     document.getElementById("mainContent").appendChild(textGrid);
   }
   else {
-    document.getElementById("textGrid").innerHTML = text;
+    document.getElementById("textGrid").textContent = text;
   }
 }
