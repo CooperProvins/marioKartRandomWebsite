@@ -29,7 +29,7 @@ main {
     display: flex;
     flex-direction: column;
 }
-#mainBody button {
+#mainBody div {
     width: 3rem;
     height: 3rem;
     outline: 5px black;
