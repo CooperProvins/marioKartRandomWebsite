@@ -51,7 +51,7 @@ main {
 }
 footer {
     background-color: var(--color-bg-in);
-    font-weight: normal;
+    font-weight: bold;
     height: 50px;
     text-align: center;
 }
