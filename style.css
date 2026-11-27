@@ -25,18 +25,18 @@ main {
     justify-content: center;
     align-items: center;
 }
-#mainBody {
+#mainContent {
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
-#mainBody div button{
+#mainContent div button{
     width: 6rem;
     height: 6rem;
     outline: 0.25rem solid black;
     font-size: 2rem;
 }
-#mainBody p {
+#mainContent p {
     white-space: pre-line;
     font-size: 2rem;
 }
