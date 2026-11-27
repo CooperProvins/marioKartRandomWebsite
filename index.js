@@ -14,7 +14,7 @@ function showGrid(whichButton) {
     }
     text += "\n";
   }
-  text = text.slice(0, -4);
+  text = text.slice(0, -3);
 
   if (document.getElementById("textGrid") === null){
     var textGrid = document.createElement("p");
