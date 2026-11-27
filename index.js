@@ -20,6 +20,7 @@ function showGrid(whichButton) {
     var textGrid = document.createElement("p");
     textGrid.id = "textGrid";
     textGrid.textContent = text;
+    textGrid.classList.add("roundedContainer");
     document.getElementById("mainContent").appendChild(textGrid);
   }
   else {
