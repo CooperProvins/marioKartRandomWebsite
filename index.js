@@ -14,5 +14,5 @@ function showGrid(whichButton) {
   
   var textGrid = document.createElement("p");
   textGrid.innerHTML = text;
-  document.body.append(textGrid);
+  document.getElementById("mainBody").appendChild(textGrid);
 }
