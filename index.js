@@ -11,8 +11,14 @@ function showGrid(whichButton) {
     }
     text += "\n";
   }
-  
-  var textGrid = document.createElement("p");
-  textGrid.innerHTML = text;
-  document.getElementById("mainBody").appendChild(textGrid);
+
+  if (document.getElementById("textGrid") === null){
+    var textGrid = document.createElement("p");
+    textGrid.id = "textGrid";
+    textGrid.innerHTML = text;
+    document.getElementById("mainBody").appendChild(textGrid);
+  }
+  else {
+    document.getElementById("textGrid").innerHTML = text;
+  }
 }
