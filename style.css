@@ -22,6 +22,21 @@ main {
     flex: 1;
     background-color: var(--color-bg-base);
 }
+.mainBody {
+    display: flex;
+    flex-direction: column;
+}
+.mainBody * {
+    
+}
+.mainBody button {
+    width: 3rem;
+    height: 3rem;
+    outline: 5px black;
+}
+.mainBody p {
+    white-space: pre-line;
+}
 footer {
     background-color: var(--color-bg-in);
     font-weight: normal;
@@ -30,7 +45,4 @@ footer {
 }
 a {
     color: var(--color-text);
-}
-p {
-    white-space: pre-line;
 }
